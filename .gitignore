@@ -24,3 +24,5 @@ hs_err_pid*
 
 .idea
 
+src/main/java/lesson*/code
+src/main/java/lesson*/mycode
