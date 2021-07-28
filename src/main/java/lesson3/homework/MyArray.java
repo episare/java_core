@@ -44,8 +44,10 @@ public class MyArray<T> {
         MyArray<Object> myArray = new MyArray<>(1, "two", 3.0);
 
         System.out.println("Before swap: " + myArray);
-        myArray.swapTwoElements(2,3);
+        myArray.swapTwoElements(2, 3);
         System.out.println("After swap: " + myArray);
     }
+
+//    Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа);
 }
 

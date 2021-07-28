@@ -57,12 +57,6 @@ public class Box<T extends Fruit> implements Comparable {
     }
 
     public void transferringFruitToAnotherBox(Box<T> boxToTransfer) {
-        //    boxToTransfer.getFruitList().addAll(fruitList);
-        //    fruitList.removeAll(fruitList);
-
-        //   for (T fruit : fruitList) {
-        //       boxToTransfer.addFruitToBox(fruit);
-        //   }
 
         for (int i = fruitList.size() - 1; i >= 0; i--) {
             // System.out.println("Индекс " + i + " Значение " + fruitList.get(i));
