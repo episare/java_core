@@ -1,6 +1,8 @@
 package Lesson8.homework;
 
 import Lesson8.homework.entity.WeatherData;
+import Lesson8.homework.myexceptions.CityNotFoundException;
+import Lesson8.homework.myexceptions.NoResponseBodyException;
 
 import java.io.IOException;
 import java.util.ArrayList;
